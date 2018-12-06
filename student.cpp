@@ -19,7 +19,9 @@ void student::addGrade(double grade){
 
 double student::getScore(){
         double total = 0;
-        grades.erase(grades.begin());
+        if(grades.empty()){
+                return 0;
+        }
         for(int i = 0; i < grades.size(); i++){
                 total += grades[i];
         }
