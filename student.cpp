@@ -4,10 +4,6 @@
 
 using namespace std;
 
-string firstName;
-string lastName;
-vector<double> grades;
-
 void student::setName(string fName, string lName){
 firstName = fName;
 lastName = lName;

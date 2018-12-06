@@ -7,6 +7,14 @@ class student
 {
         private:
         public:
+          std::vector<double> grades;
+          std::string firstName;
+          std::string lastName;
+          student(){
+                  firstName = "";
+                  lastName = "";
+
+          }
           void setName(std::string, std::string);
           std::string fullName();
           void addGrade(double);
