@@ -13,6 +13,7 @@ class student
           student(){
                   firstName = "";
                   lastName = "";
+                  grades.push_back(0);
 
           }
           void setName(std::string, std::string);
